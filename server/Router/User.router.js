@@ -4,7 +4,7 @@ let express = require('express');
 let UserRouter = express.Router();
 let config = {
     "region": "ap-southeast-1",
-    "accessKeyId": "AKIA2LO33W3RCS3BLBAY", "secretAccessKey": "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"
+    "accessKeyId": "", "secretAccessKey": ""
 };
 AWS.config.update(config);
 let docClient = new AWS.DynamoDB.DocumentClient();
